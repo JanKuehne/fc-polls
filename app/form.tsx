@@ -52,7 +52,7 @@ export function PollCreateForm() {
   return (
       <>
         <head> 
-          <meta property="fc:frame" content="vNext"> 
+          <meta property="fc:frame" content="vNext" />  
           <meta property="fc:frame:image" content={`https://fc-polls-git-main-jans-projects-d3e16dec.vercel.app/api/image?id=${pollStub.id}`} /> 
         </head>
         <div className="mx-8 w-full">
